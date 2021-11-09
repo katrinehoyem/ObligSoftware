@@ -17,4 +17,4 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: test
-        run: mvn -B test --file junit5-jupiter-starter-maven/pom.xml
+        run: mvn -B test --file pom.xml
