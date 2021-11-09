@@ -2,7 +2,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class leap_year_test {
+public class LeapYearTest {
 
     @Test
     public void year_divisible_by_4_not_100(){
